@@ -1,6 +1,19 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  async headers() {
+    return [
+      { 
+        source: '/',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'private, no-store, no-cache, must-revalidate',
+          },
+        ],
+      },
+    ]
+  },
   experimental: {
     appDir: true,
   },
