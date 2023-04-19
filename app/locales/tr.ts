@@ -19,6 +19,7 @@ const tr: LocaleType = {
       Copy: "Kopyala",
       Stop: "Durdur",
       Retry: "Tekrar Dene",
+      Delete: "Delete",
     },
     Rename: "Sohbeti Yeniden Adlandır",
     Typing: "Yazıyor…",
@@ -76,6 +77,8 @@ const tr: LocaleType = {
         es: "Español",
         it: "Italiano",
         tr: "Türkçe",
+        jp: "日本語",
+        de: "Deutsch",
       },
     },
     Avatar: "Avatar",
@@ -104,6 +107,11 @@ const tr: LocaleType = {
       ListCount: (builtin: number, custom: number) =>
         `${builtin} yerleşik, ${custom} kullanıcı tanımlı`,
       Edit: "Düzenle",
+      Modal: {
+        Title: "Prompt List",
+        Add: "Add One",
+        Search: "Search Prompts",
+      },
     },
     HistoryCount: {
       Title: "Ekli Mesaj Sayısı",
@@ -136,11 +144,13 @@ const tr: LocaleType = {
     Model: "Model",
     Temperature: {
       Title: "Gerçeklik",
-      SubTitle: "Daha büyük bir değer girildiğinde gerçeklik oranı düşer ve daha rastgele çıktılar üretir",
+      SubTitle:
+        "Daha büyük bir değer girildiğinde gerçeklik oranı düşer ve daha rastgele çıktılar üretir",
     },
     MaxTokens: {
       Title: "Maksimum Belirteç",
-      SubTitle: "Girdi belirteçlerinin ve oluşturulan belirteçlerin maksimum uzunluğu",
+      SubTitle:
+        "Girdi belirteçlerinin ve oluşturulan belirteçlerin maksimum uzunluğu",
     },
     PresencePenlty: {
       Title: "Varlık Cezası",
@@ -161,7 +171,8 @@ const tr: LocaleType = {
       Summarize:
         "Gelecekteki bağlam için bir bilgi istemi olarak kullanmak üzere tartışmamızı en fazla 200 kelimeyle özetleyin.",
     },
-    ConfirmClearAll: "Tüm sohbet ve ayar verilerini temizlemeyi onaylıyor musunuz?",
+    ConfirmClearAll:
+      "Tüm sohbet ve ayar verilerini temizlemeyi onaylıyor musunuz?",
   },
   Copy: {
     Success: "Panoya kopyalandı",
